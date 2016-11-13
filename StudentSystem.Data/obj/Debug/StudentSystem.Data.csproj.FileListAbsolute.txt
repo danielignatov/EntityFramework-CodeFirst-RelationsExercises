@@ -1,0 +1,12 @@
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll.config
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\StudentSystem.Data.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\StudentSystem.Data.pdb
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\EntityFramework.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\StudentSystem.Models.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\StudentSystem.Models.pdb
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\EntityFramework.xml
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\obj\Debug\StudentSystem.Data.csprojResolveAssemblyReference.cache
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\obj\Debug\StudentSystem.Data.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Data\obj\Debug\StudentSystem.Data.pdb
