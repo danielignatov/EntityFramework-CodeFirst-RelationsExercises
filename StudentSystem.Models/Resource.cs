@@ -2,6 +2,7 @@
 {
     using Enums;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Resource
     {
@@ -23,5 +24,10 @@
 
         [Required]
         public string Url { get; set; }
+
+        [ForeignKey("Course")]
+        public int CourseId { get; set; }
+
+        public Course Course { get; set; }
     }
 }
