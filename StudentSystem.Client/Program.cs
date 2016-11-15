@@ -92,16 +92,16 @@
             // Order the results by total price (descending), then by number of courses(descending)
             // and then by the student's name (ascending).
             
-            //var allStudents = context.Students
-            //    .OrderByDescending(c => c.Courses.Select(p => p.Price).Sum())
-            //    .ThenByDescending(c => c.Courses.Count);
-            //
-            //foreach (var student in allStudents)
-            //{
-            //    Console.WriteLine($"{student.Name} {student.Courses.Count}" +
-            //                      $"Total sum: {student.Courses.Select(p => p.Price).Sum()}" +
-            //                      $"Average sum: {student.Courses.Select(p => p.Price).Average():F2}");
-            //}
+            var allStudents = context.Students
+                .OrderByDescending(c => c.Courses.Select(p => p.Price).Sum())
+                .ThenByDescending(c => c.Courses.Count);
+            
+            foreach (var student in allStudents)
+            {
+                Console.WriteLine($"{student.Name} {student.Courses.Count} " +
+                                  $"Total sum: {student.Courses.Select(p => p.Price).Sum()} " +
+                                  $"Average sum: {student.Courses.Select(p => p.Price).Average():F2}");
+            }
         }
     }
 }
