@@ -18,8 +18,7 @@
         [Key]
         public int Id { get; set; }
 
-        [Required]
-        [Tag]
+        [Required, Tag]
         public string Name { get; set; }
 
         public virtual ICollection<Album> Albums

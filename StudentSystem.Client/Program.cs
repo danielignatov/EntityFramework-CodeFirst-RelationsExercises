@@ -91,17 +91,41 @@
             // Select the student name, number of courses, total price and average price. 
             // Order the results by total price (descending), then by number of courses(descending)
             // and then by the student's name (ascending).
-            
-            var allStudents = context.Students
-                .OrderByDescending(c => c.Courses.Select(p => p.Price).Sum())
-                .ThenByDescending(c => c.Courses.Count);
-            
-            foreach (var student in allStudents)
-            {
-                Console.WriteLine($"{student.Name} {student.Courses.Count} " +
-                                  $"Total sum: {student.Courses.Select(p => p.Price).Sum()} " +
-                                  $"Average sum: {student.Courses.Select(p => p.Price).Average():F2}");
-            }
+
+            //var allStudents = context.Students
+            //    .OrderByDescending(c => c.Courses.Select(p => p.Price).Sum())
+            //    .ThenByDescending(c => c.Courses.Count);
+            //
+            //foreach (var student in allStudents)
+            //{
+            //    Console.WriteLine($"{student.Name} {student.Courses.Count} " +
+            //                      $"Total sum: {student.Courses.Select(p => p.Price).Sum()} " +
+            //                      $"Average sum: {student.Courses.Select(p => p.Price).Average():F2}");
+            //}
+
+            // Write a program that receives as an input tags and insert them into the database. 
+            // Use the [Tag] attribute and TagTransformer class to make sure only valid attributes are inserted in the database.
+
+            //Console.Write("Add New Tag:");
+            //string input = Console.ReadLine();
+            //string tag = TagTransofrmer.Transform(input);
+            //
+            //if (context.Tags.Where(n => n.Name == tag).Count() == 0)
+            //{
+            //    Tag newTag = new Tag()
+            //    {
+            //        Name = tag
+            //    };
+            //
+            //    context.Tags.Add(newTag);
+            //    context.SaveChanges();
+            //
+            //    Console.WriteLine($"{newTag.Name} was added to the database!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"{tag} is already in database!");
+            //}
         }
     }
 }

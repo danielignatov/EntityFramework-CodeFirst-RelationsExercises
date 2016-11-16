@@ -1,0 +1,7 @@
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\bin\Debug\StudentSystem.Models.Tests.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\bin\Debug\StudentSystem.Models.Tests.pdb
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\bin\Debug\StudentSystem.Models.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\bin\Debug\StudentSystem.Models.pdb
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\obj\Debug\StudentSystem.Models.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\obj\Debug\StudentSystem.Models.Tests.dll
+C:\Users\Даниел\Documents\GitHub\EntityFramework-CodeFirst-RelationsExercises\StudentSystem.Models.Tests\obj\Debug\StudentSystem.Models.Tests.pdb
